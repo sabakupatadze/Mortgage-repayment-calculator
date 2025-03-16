@@ -8,27 +8,40 @@
   </head>
   <body>
     <div class="div1">
-      <div class="div5">
-        <div class="div2">
+      <div class="div2">
+        <div class="clear">
           <h1>Mortgage Calculator</h1>
           <p>Clear All</p>
-          <input type="number" />
         </div>
+        <div class="ammount">
+          <h3>Mortgage Ammount</h3>
+          <div class="pount-sign">
+            <p class="pound">£</p>
+            <input class="input1" type="number" />
+          </div>
+        </div>
+
         <div class="div3">
           <p>Mortgage Term</p>
-          <input type="number" />
+          <p class="years">years</p>
+          <input class="input2" type="number" />
           <p>Interest Rate</p>
-          <input type="number" />
+          <p class="p2">%</p>
+          <input class="input2" type="number" />
         </div>
         <div class="div4">
           <p>Mortgage Type</p>
           <div>
-            <input type="radio" />
-            <p class="">Repayment</p>
+            <div class="div6">
+              <input class="input3" type="radio" />
+              <p class="">Repayment</p>
+            </div>
           </div>
           <div>
-            <input type="radio" />
-            <p class="p1">Interest Only</p>
+            <div class="div5">
+              <input class="input4" type="radio" />
+              <p class="p1">Interest Only</p>
+            </div>
           </div>
         </div>
         <button>
@@ -37,13 +50,14 @@
         </button>
       </div>
       <div>
-        <img src="assets/images/illustration-empty.svg" alt="" />
         <h1>Results shown here</h1>
         <p>
           Complete the form and click " calculate Repayments" to <br />
           see what your monthly repayments would be.
         </p>
       </div>
+
+      <img src="assets/images/illustration-empty.svg" alt="" />
     </div>
   </body>
 </html>
