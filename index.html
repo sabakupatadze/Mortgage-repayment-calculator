@@ -11,10 +11,10 @@
       <div class="div2">
         <div class="clear">
           <h1>Mortgage Calculator</h1>
-          <p>Clear All</p>
+          <p class="p3">Clear All</p>
         </div>
         <div class="ammount">
-          <h3>Mortgage Ammount</h3>
+          <h3 class="h1">Mortgage Ammount</h3>
           <div class="pount-sign">
             <p class="pound">£</p>
             <input class="input1" type="number" />
@@ -22,15 +22,23 @@
         </div>
 
         <div class="div3">
-          <p>Mortgage Term</p>
-          <p class="years">years</p>
-          <input class="input2" type="number" />
-          <p>Interest Rate</p>
-          <p class="p2">%</p>
-          <input class="input2" type="number" />
+          <div class="morgage-term">
+            <p class="p4">Mortgage Term</p>
+            <div class="morgage-input">
+              <input class="input2" type="number" />
+              <p class="years">years</p>
+            </div>
+          </div>
+          <div class="interest-rate">
+            <p class="p4">Interest Rate</p>
+            <div class="interest-rate-input">
+              <input class="input2" type="number" />
+              <p class="p2">%</p>
+            </div>
+          </div>
         </div>
         <div class="div4">
-          <p>Mortgage Type</p>
+          <p class="p4">Mortgage Type</p>
           <div>
             <div class="div6">
               <input class="input3" type="radio" />
@@ -40,24 +48,28 @@
           <div>
             <div class="div5">
               <input class="input4" type="radio" />
+
               <p class="p1">Interest Only</p>
             </div>
           </div>
         </div>
         <button>
-          <img src="assets/images/icon-calculator.svg" alt="" /> Calculate
-          Repayments
+          <img
+            class="buttonimg"
+            src="assets/images/icon-calculator.svg"
+            alt=""
+          />
+          Calculate Repayments
         </button>
       </div>
-      <div>
+      <div class="results">
+        <img src="assets/images/illustration-empty.svg" alt="" />
         <h1>Results shown here</h1>
         <p>
-          Complete the form and click " calculate Repayments" to <br />
-          see what your monthly repayments would be.
+          Complete the form and click " calculate Repayments" to see what your
+          monthly repayments would be.
         </p>
       </div>
-
-      <img src="assets/images/illustration-empty.svg" alt="" />
     </div>
   </body>
 </html>
